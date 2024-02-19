@@ -21,3 +21,19 @@ for (let i = 0; i < cellsArray.length; i++) {
     }
   });
 }
+
+function massive_create() {
+  const big_cells = new Array(9).fill("");
+
+  const top_left_cell = new Array(9).fill("");
+  const top_cell = new Array(9).fill("");
+  const top_right_left_cell = new Array(9).fill("");
+  const left_cell = new Array(9).fill("");
+  const center_cell = new Array(9).fill("");
+  const right_cell = new Array(9).fill("");
+  const bottom_left_cell = new Array(9).fill("");
+  const bottom_cell = new Array(9).fill("");
+  const bottom_right_cell = new Array(9).fill("");
+
+  console.log(big_cells);
+}
