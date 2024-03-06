@@ -34,3 +34,20 @@ body {
 }
 .little-cell.block {
 }
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.current-player {
+  display: flex;
+  align-items: center;
+  color: #eee;
+}
+
+.current-player > img {
+  width: 80px;
+  margin-left: 20px;
+}
